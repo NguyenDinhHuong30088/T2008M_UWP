@@ -27,7 +27,7 @@ namespace T2008M_UWP
         {
             this.InitializeComponent();
             _mainFrame = MainFrame;
-            MainFrame.Navigate(typeof(pages.Mail));
+            MainFrame.Navigate(typeof(pages.DemoFilePage));
         }
 
 
@@ -53,6 +53,7 @@ namespace T2008M_UWP
             // new MenuItem() { Name = "Ten cua category", MenuPage = "category", Icon = "\uE946" };
             Menu.Items.Add(item1);
             Menu.Items.Add(item2);
+            RenderCategoriesToMenu();
         }
 
         private void ListViewItem_Tapped(object sender, TappedRoutedEventArgs e)
@@ -62,7 +63,21 @@ namespace T2008M_UWP
             {
                 case "home": MainFrame.Navigate(typeof(pages.Home), selectedItem); break; // Page
                 case "pi": MainFrame.Navigate(typeof(pages.PersonInfomation)); break;
-                    //case "category": MainFrame.Navigate(typeof(Pages.Category),category); break;
+                case "category": MainFrame.Navigate(typeof(pages.CategoryPage), selectedItem.Category); break;
+            }
+        }
+
+        public async void RenderCategoriesToMenu()
+        {
+            // dung Service de lay object Categories
+            Services.MenuService service = new Services.MenuService();
+            Models.Categories categories = await service.GetMenu();
+            if (categories != null)
+            {
+                foreach (Models.Category c in categories.data)
+                {
+                    Menu.Items.Add(new MenuItem() { Name = c.name, MenuPage = "category", Icon = "\ue71d", Category = c });
+                }
             }
         }
     }
