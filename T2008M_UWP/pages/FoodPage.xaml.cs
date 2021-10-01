@@ -12,7 +12,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-
+using T2008M_UWP.Services;
+using T2008M_UWP.Models;
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace T2008M_UWP.pages
@@ -27,10 +28,27 @@ namespace T2008M_UWP.pages
             this.InitializeComponent();
         }
 
+        private Models.Food food;
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            Models.Food food = e.Parameter as Models.Food;
+            food = e.Parameter as Models.Food;
             Title.Text = food.name;
+        }
+
+        private void AddToCart(object sender, RoutedEventArgs e)
+        {
+            CartService cart = new CartService();
+            CartItem item = new CartItem()
+            {
+                Id = food.id,
+                Name = food.name,
+                Image = food.image,
+                Price = food.price,
+                Qty = 1,
+            };
+            cart.AddToCart(item);
+            //var list = cart.GetCart();
+
         }
     }
 }

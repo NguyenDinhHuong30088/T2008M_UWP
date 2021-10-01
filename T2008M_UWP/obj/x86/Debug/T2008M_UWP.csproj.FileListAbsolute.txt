@@ -63,3 +63,15 @@ C:\Users\Admin\source\repos\T2008M\T2008M_UWP\obj\x86\Debug\pages\Lab1\labs1.g.i
 C:\Users\Admin\source\repos\T2008M\T2008M_UWP\obj\x86\Debug\pages\Lab1\labs1.g.cs
 C:\Users\Admin\source\repos\T2008M\T2008M_UWP\obj\x86\Debug\pages\Lab1\labs1.xaml
 C:\Users\Admin\source\repos\T2008M\T2008M_UWP\obj\x86\Debug\pages\Lab1\labs1.xbf
+C:\Users\Admin\source\repos\T2008M\T2008M_UWP\obj\x86\Debug\pages\CategoryPage.g.i.cs
+C:\Users\Admin\source\repos\T2008M\T2008M_UWP\obj\x86\Debug\pages\CategoryPage.g.cs
+C:\Users\Admin\source\repos\T2008M\T2008M_UWP\obj\x86\Debug\pages\DemoFilePage.g.i.cs
+C:\Users\Admin\source\repos\T2008M\T2008M_UWP\obj\x86\Debug\pages\DemoFilePage.g.cs
+C:\Users\Admin\source\repos\T2008M\T2008M_UWP\obj\x86\Debug\pages\FoodPage.g.i.cs
+C:\Users\Admin\source\repos\T2008M\T2008M_UWP\obj\x86\Debug\pages\FoodPage.g.cs
+C:\Users\Admin\source\repos\T2008M\T2008M_UWP\obj\x86\Debug\pages\CategoryPage.xaml
+C:\Users\Admin\source\repos\T2008M\T2008M_UWP\obj\x86\Debug\pages\DemoFilePage.xaml
+C:\Users\Admin\source\repos\T2008M\T2008M_UWP\obj\x86\Debug\pages\FoodPage.xaml
+C:\Users\Admin\source\repos\T2008M\T2008M_UWP\obj\x86\Debug\pages\CategoryPage.xbf
+C:\Users\Admin\source\repos\T2008M\T2008M_UWP\obj\x86\Debug\pages\DemoFilePage.xbf
+C:\Users\Admin\source\repos\T2008M\T2008M_UWP\obj\x86\Debug\pages\FoodPage.xbf

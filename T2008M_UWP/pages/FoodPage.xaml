@@ -10,5 +10,6 @@
 
     <Grid>
         <TextBlock Text="" x:Name="Title" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <Button Click="AddToCart" Content="Add To Cart" Margin="689,368,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Page>

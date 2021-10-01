@@ -50,9 +50,9 @@
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Text" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="FontSize" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="FontSize" />
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="Foreground" />
     </RootType>
@@ -69,6 +69,11 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="ItemTemplate" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.GridViewItem">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Content" />
+      <RootEvent Name="Tapped" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Children" />
       <RootProperty Name="Margin" />
@@ -80,6 +85,19 @@
     <RootType FullName="Windows.UI.Xaml.Media.Imaging.BitmapImage">
       <RootProperty Name="UriSource" />
     </RootType>
+    <RootType FullName="T2008M_UWP.pages.CategoryPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="T2008M_UWP.pages.DemoFilePage" />
+    <RootType FullName="T2008M_UWP.pages.FoodPage" />
     <RootType FullName="T2008M_UWP.pages.Home" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="TextWrapping" />
@@ -90,14 +108,6 @@
       <RootProperty Name="Height" />
       <RootProperty Name="PlaceholderText" />
       <RootProperty Name="Text" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Button">
-      <RootProperty Name="Content" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Height" />
-      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="T2008M_UWP.pages.Lab1.labs1" />
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
